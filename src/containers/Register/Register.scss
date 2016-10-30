@@ -1,0 +1,99 @@
+@import '../../theme/variables';
+.Register {
+    @include full-width();
+    position: relative;
+    font-family: $font-primary;
+    font-weight: 300;
+    .CompanyName {
+        text-align: center;
+        color: $white;
+        font-size: 50px;
+        text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        margin-bottom: 20px;
+        font-weight: 400;
+        @media screen and (max-width: 600px) {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+    }
+    .Subtitle {
+        color: $white;
+        text-align: center;
+        margin-bottom: 35px;
+        @media screen and (max-width: 600px) {
+            margin-bottom: 15px;
+        }
+    }
+    .ProviderSubtitle {
+        color: $white;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .PhotoContainer {
+        text-align: center;
+    }
+    .ProviderPhoto {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 20px;
+        border: 1px solid rgba(255,255,255,0.7);
+    }
+    .RegisterContainer {
+        position: fixed !important;
+        z-index: 1;
+        @include center();
+    }
+    .LoginBtn {
+        text-align: center;
+        color: $white;
+        margin-bottom: 35px;
+        margin-top: 30px;
+        @media screen and (max-width: 600px) {
+            margin-bottom: 15px;
+        }
+    }
+    .OrContainer {
+        position: relative;
+        margin-bottom: 15px;
+        @media screen and (max-width: 600px) {
+            margin-bottom: 10px;
+        }
+    }
+    .Or {
+        width: 20px;
+        color: $white;
+        position: absolute;
+        top: 10px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .OrHr {
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+    }
+    .Background {
+        @include background-video();
+    }
+    .Link {
+        color: $white;
+    }
+    .Error {
+        color: $red;
+        text-align: center;
+        font-weight: bold;
+    }
+    .Success {
+        color: $green;
+        text-align: center;
+        font-weight: bold;
+    }
+    .Copyright {
+        text-align: center;
+        color: $white;
+        margin-bottom: 35px;
+        margin-top: 20px;
+    }
+}

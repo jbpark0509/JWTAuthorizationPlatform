@@ -1,0 +1,63 @@
+@import '../../theme/variables';
+.Login {
+    @include full-width();
+    position: relative;
+    font-family: $font-primary;
+    font-weight: 300;
+    .LoginContainer {
+        position: fixed !important;
+        z-index: 1;
+        @include center();
+        .CompanyName {
+            text-align: center;
+            color: $white;
+            font-size: 50px;
+            text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+            font-weight: 400;
+            @media screen and (max-width: 600px) {
+                font-size: 40px;
+            }
+        }
+        .Subtitle {
+            color: $white;
+            text-align: center;
+            margin-bottom: 35px;
+        }
+        .ResetPassword {
+            margin-bottom: 10px;
+            @media screen and (max-width: 600px) {
+                margin-bottom: 30px;
+            }
+        }
+        .RegisterBtn {
+            text-align: center;
+            color: $white;
+            margin-bottom: 35px;
+            margin-top: 30px;
+        }
+        .Copyright {
+            text-align: center;
+            color: $white;
+            margin-bottom: 35px;
+            margin-top: 20px;
+        }
+    }
+    .Background {
+        @include background-video();
+    }
+    .Link {
+        color: $white;
+    }
+    .Error {
+        color: $red;
+        text-align: center;
+        font-weight: bold;
+    }
+    .Success {
+        color: $green;
+        font-weight: normal;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,44 @@
+.GooglePlusBtn {
+    background: #d34836;
+    border: #B02B1A;
+}
+
+.GooglePlusBtn.focus,
+.GooglePlusBtn:focus,
+.GooglePlusBtn.active,
+.GooglePlusBtn:active,
+.GooglePlusBtn:hover,
+.GooglePlusBtn:active,
+.GooglePlusBtn.active.focus,
+.GooglePlusBtn.active:focus,
+.GooglePlusBtn.active:hover,
+.GooglePlusBtn:active.focus,
+.GooglePlusBtn:active:focus,
+.GooglePlusBtn:active:hover,
+.GooglePlusBtn .badge {
+    background: #B02B1A;
+    border: #d34836;
+}
+
+.GooglePlusBtn.disabled.focus,
+.GooglePlusBtn.disabled:focus,
+.GooglePlusBtn.disabled:hover,
+.GooglePlusBtn[disabled].focus,
+.GooglePlusBtn[disabled]:focus,
+.GooglePlusBtn[disabled]:hover,
+fieldset[disabled] .GooglePlusBtn.focus,
+fieldset[disabled] .GooglePlusBtn:focus,
+fieldset[disabled] .GooglePlusBtn:hover {
+    background: #B02B1A;
+    border: #d34836;
+}
+
+.GooglePlusBtn .badge {
+    background: #B02B1A;
+    border: #d34836;
+}
+
+.GoogleLogo{
+	height: 100%;
+	padding-top: 4px;
+}

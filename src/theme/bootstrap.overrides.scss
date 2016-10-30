@@ -1,0 +1,41 @@
+/**
+ * Override Bootstrap styles that you can't modify via variables here.
+ *
+ */
+
+.navbar-brand {
+    position: relative;
+    padding-left: 50px;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #33e0ff;
+    background-color: transparent;
+}
+
+.btn-success[disabled] {
+    background: #5cb85c;
+}
+
+html,
+body,
+.container-fluid,
+#myApp {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Lato', sans-serif;
+}
+
+.col-sm-3 {
+    @media screen and (max-width: 1100px) {
+        width: 50%;
+    }
+    @media screen and (max-width: 500px) {
+        width: 95%;
+    }
+}
